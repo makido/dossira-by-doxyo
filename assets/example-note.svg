@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 430" role="img" aria-labelledby="title desc">
+  <title id="title">Fiktive handschriftliche Gesprächsnotiz</title>
+  <desc id="desc">Unterlagen gemeinsam gesichtet. Offene Fragen beim nächsten Termin klären. Rückmeldung bis Freitag vereinbart.</desc>
+  <defs><pattern id="lines" width="620" height="39" patternUnits="userSpaceOnUse"><path d="M0 38.5h620" stroke="#b7c9c7"/></pattern></defs>
+  <rect width="620" height="430" fill="#fcf8e9"/><rect x="0" y="56" width="620" height="345" fill="url(#lines)"/><path d="M56 0v430" stroke="#deb7a5"/>
+  <g fill="#344b5c" font-family="'Bradley Hand','Segoe Print','Comic Sans MS',cursive" font-size="29" transform="rotate(-1 310 215)">
+  <text x="72" y="77" font-size="34">Gesprächsnotiz</text><text x="420" y="78" font-size="24">23.11.2026</text>
+  <path d="M73 86q110 3 201-2" fill="none" stroke="#506674" stroke-width="2"/>
+  <text x="73" y="151">Unterlagen gemeinsam gesichtet.</text>
+  <text x="73" y="225">Offene Fragen beim nächsten</text><text x="77" y="262">Termin klären.</text>
+  <text x="73" y="340">Rückmeldung bis Freitag vereinbart.</text></g>
+</svg>
