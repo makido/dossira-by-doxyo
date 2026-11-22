@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="de-CH">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1d304b">
+  <title>Dossira by Doxyo</title>
+  <link rel="icon" href="./assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Zum Inhalt</a>
+  <div class="shell">
+    <aside class="sidebar">
+      <a class="brand" href="#arbeitsplatz" aria-label="Dossira by Doxyo – Arbeitsplatz"><img src="./assets/mark.svg" alt=""><span>Dossira <small>by Doxyo</small></span></a>
+      <nav id="nav" aria-label="Hauptnavigation"></nav>
+      <div class="side-bottom">
+        <button type="button" data-reset class="reset">Demo zurücksetzen</button>
+        <div class="profile"><span class="avatar">NS</span><div><strong>Nora Spiel</strong><small>Sozialarbeit</small></div></div>
+      </div>
+    </aside>
+    <div class="workspace">
+      <header class="top"><div id="breadcrumb"></div><span class="warning"><i></i>DEMO – Keine echten Klientendaten verwenden</span></header>
+      <main id="main" tabindex="-1"></main>
+    </div>
+  </div>
+  <dialog id="reset-dialog" aria-labelledby="reset-title"><form method="dialog"><h2 id="reset-title">Demo zurücksetzen?</h2><p>Die drei Beispieldokumente kehren in den Eingang zurück. Ihre Änderungen in dieser Demo werden verworfen.</p><div class="actions"><button value="cancel" class="btn soft" autofocus>Abbrechen</button><button value="reset" class="btn primary">Demo zurücksetzen</button></div></form></dialog>
+  <div role="status" aria-live="polite" id="notice"></div>
+  <noscript>Bitte aktivieren Sie JavaScript, um die Demo zu öffnen.</noscript>
+  <script type="module" src="./src/app.js"></script>
+</body>
+</html>
